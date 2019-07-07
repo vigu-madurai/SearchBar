@@ -1,0 +1,50 @@
+.results-container {
+	width: 50%;
+	background: white;
+	border: solid 1px lightgrey;
+	max-height: 40%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	position: absolute;
+	top: calc(11% + 54px);
+}
+
+.result-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 10px;
+	color: black;
+	position: relative;
+	width: 100%;
+	border-bottom: solid 1px lightgrey;
+	cursor: pointer;
+}
+
+.id-wrapper {
+	display: flex;
+	width: 100%;
+}
+
+.info-wrapper {
+	display: flex;
+	width: 100%;
+}
+.info-wrapper div {
+	margin-right: 10px;
+	display: flex;
+}
+
+.searched-text {
+	color: brown;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.active {
+	background: aliceblue;
+}
+
+.active:hover {
+	background: aliceblue;
+}

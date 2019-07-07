@@ -1,0 +1,28 @@
+.search-bar-container {
+	padding: 10px 20px;
+	width: 50%;
+	background: lightgrey;
+	opacity: 0.5;
+	border-radius: 6px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	top: 10%;
+}
+
+.text-container {
+	width: 90%;
+	height: 30px;
+	padding: 0 10px;
+	font-size: 16px;
+}
+
+.close-icon:hover {
+	color: red;
+}
+
+.no-results {
+	padding: 10px;
+	color: red;
+}
